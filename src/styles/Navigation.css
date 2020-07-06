@@ -83,6 +83,7 @@
 
 .navItem {
   margin: 0 20px 0 20px;
+  font-size: 0.95rem;
   height: var(--nav-height);
   line-height: var(--nav-height);
   border-bottom: 1px dotted var(--color-grey);
@@ -117,24 +118,28 @@
   }
 
   .navItem {
+    position: relative;
+    height: auto;
     border: none;
   }
 
   .navItem::after {
     content: '';
     display: block;
-    margin: 0 auto;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
     height: 2px;
     width: 80%;
-    transform: scaleX(0);
+    transform: translateX(-50%) scaleX(0);
     background-color: var(--color-tertiary);
     transition: 0.3s;
   }
   .navItem.activeSection::after {
-    transform: scaleX(1);
+    transform: translateX(-50%) scaleX(1);
   }
 
   .navItem:hover.navItem::after {
-    transform: scaleX(1);
+    transform: translateX(-50%) scaleX(1);
   }
 }

@@ -41,6 +41,7 @@ html {
 }
 
 .title {
+  margin: 20px 0 40px 0;
   font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase;
