@@ -1,0 +1,42 @@
+.header {
+  height: 100vh;
+  background-color: #181518;
+}
+.headerContainer {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.headerTitle {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.headerDescription {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.headerBtn {
+  padding: 15px;
+  background-color: transparent;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.headerBtn:hover {
+  border-color: var(--color-tertiary);
+  background-color: var(--color-tertiary);
+  border-radius: 15px;
+  cursor: pointer;
+}

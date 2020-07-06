@@ -1,0 +1,12 @@
+.contact {
+  padding-top: 20px;
+}
+
+.contactCompany {
+  margin: 20px 0;
+}
+
+.contactMap {
+  min-height: 70vh;
+  width: 100%;
+}

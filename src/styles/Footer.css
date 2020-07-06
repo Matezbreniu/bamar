@@ -1,0 +1,18 @@
+.footer {
+  position: relative;
+  height: var(--nav-height);
+  width: 100%;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 12px;
+}
+
+.footerAttribute {
+  position: absolute;
+  right: 20px;
+  line-height: var(--nav-height);
+}
+
+.footerAttributeLink {
+  color: white;
+}

@@ -1,0 +1,48 @@
+.serviceContainer {
+  position: relative;
+  margin: 20px 0;
+  width: 45%;
+}
+
+.serviceIconContainer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 100px;
+  width: 100px;
+  background-color: var(--color-light-grey);
+  border: 3px solid var(--color-grey);
+  border-radius: 20%;
+  transition: 0.2s;
+}
+
+.serviceIconContainer:hover {
+  background-color: var(--color-tertiary);
+  border: none;
+  border-radius: 50%;
+}
+
+.serviceIcon {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  fill: var(--color-tertiary);
+}
+.serviceIconContainer:hover .serviceIcon {
+  fill: white;
+}
+
+.serviceTitle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 1023px) {
+  .serviceContainer {
+    margin: 30px 0;
+    width: 30%;
+  }
+}

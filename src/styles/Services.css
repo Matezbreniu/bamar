@@ -1,0 +1,10 @@
+.services {
+  padding: 20px 0;
+}
+
+.servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

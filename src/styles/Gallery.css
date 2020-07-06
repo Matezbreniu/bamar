@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galleryImageContainer {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+@media (min-width: 767px) {
+  .galleryImageContainer {
+    width: 50%;
+    height: 300px;
+  }
+}
+@media (min-width: 1400px) {
+  .galleryImageContainer {
+    width: 25%;
+  }
+}
