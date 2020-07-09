@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/bamar/static/css/main.77eb0f79.chunk.css",
-    "main.js": "/bamar/static/js/main.213057b2.chunk.js",
-    "main.js.map": "/bamar/static/js/main.213057b2.chunk.js.map",
+    "main.css": "/bamar/static/css/main.913d76b2.chunk.css",
+    "main.js": "/bamar/static/js/main.06422635.chunk.js",
+    "main.js.map": "/bamar/static/js/main.06422635.chunk.js.map",
     "runtime-main.js": "/bamar/static/js/runtime-main.88fe4ae5.js",
     "runtime-main.js.map": "/bamar/static/js/runtime-main.88fe4ae5.js.map",
-    "static/js/2.8f783a3f.chunk.js": "/bamar/static/js/2.8f783a3f.chunk.js",
-    "static/js/2.8f783a3f.chunk.js.map": "/bamar/static/js/2.8f783a3f.chunk.js.map",
+    "static/js/2.331e37c0.chunk.js": "/bamar/static/js/2.331e37c0.chunk.js",
+    "static/js/2.331e37c0.chunk.js.map": "/bamar/static/js/2.331e37c0.chunk.js.map",
     "index.html": "/bamar/index.html",
-    "precache-manifest.dc64ca33f931c1fcbe68e2e59fb8d04f.js": "/bamar/precache-manifest.dc64ca33f931c1fcbe68e2e59fb8d04f.js",
+    "precache-manifest.6b08e1ccad6c9cc00a04c179f83b8ad1.js": "/bamar/precache-manifest.6b08e1ccad6c9cc00a04c179f83b8ad1.js",
     "service-worker.js": "/bamar/service-worker.js",
-    "static/css/main.77eb0f79.chunk.css.map": "/bamar/static/css/main.77eb0f79.chunk.css.map",
-    "static/js/2.8f783a3f.chunk.js.LICENSE.txt": "/bamar/static/js/2.8f783a3f.chunk.js.LICENSE.txt",
+    "static/css/main.913d76b2.chunk.css.map": "/bamar/static/css/main.913d76b2.chunk.css.map",
+    "static/js/2.331e37c0.chunk.js.LICENSE.txt": "/bamar/static/js/2.331e37c0.chunk.js.LICENSE.txt",
     "static/media/ballet.47dadb82.svg": "/bamar/static/media/ballet.47dadb82.svg",
     "static/media/basketball.c8e3632c.svg": "/bamar/static/media/basketball.c8e3632c.svg",
+    "static/media/basketballPlayer.441e1bee.svg": "/bamar/static/media/basketballPlayer.441e1bee.svg",
     "static/media/chess.9eaf9752.svg": "/bamar/static/media/chess.9eaf9752.svg",
+    "static/media/dance.1ecaf3bb.svg": "/bamar/static/media/dance.1ecaf3bb.svg",
     "static/media/football.b8e6f5eb.svg": "/bamar/static/media/football.b8e6f5eb.svg",
+    "static/media/Header.css": "/bamar/static/media/headerImage.5a6e3fa6.jpg",
     "static/media/hippies.671d2ae7.svg": "/bamar/static/media/hippies.671d2ae7.svg",
-    "static/media/karate.7f7a557b.svg": "/bamar/static/media/karate.7f7a557b.svg"
+    "static/media/karate.7f7a557b.svg": "/bamar/static/media/karate.7f7a557b.svg",
+    "static/media/left.3eaaa6e5.svg": "/bamar/static/media/left.3eaaa6e5.svg",
+    "static/media/right.c9df718c.svg": "/bamar/static/media/right.c9df718c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.88fe4ae5.js",
-    "static/js/2.8f783a3f.chunk.js",
-    "static/css/main.77eb0f79.chunk.css",
-    "static/js/main.213057b2.chunk.js"
+    "static/js/2.331e37c0.chunk.js",
+    "static/css/main.913d76b2.chunk.css",
+    "static/js/main.06422635.chunk.js"
   ]
 }
