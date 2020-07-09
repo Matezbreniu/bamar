@@ -7,6 +7,7 @@ const navList = [
   {name: 'O nas', id: 'aboutUs'},
   {name: 'Usługi', id: 'services'},
   {name: 'Galeria', id: 'gallery'},
+  {name: 'Referencje', id: 'references'},
   {name: 'Kontakt', id: 'contact'},
 ];
 

@@ -2,6 +2,12 @@
   padding: 20px 0;
 }
 
+.servicesTitle {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 .servicesList {
   display: flex;
   flex-wrap: wrap;

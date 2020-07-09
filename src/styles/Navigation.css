@@ -6,7 +6,7 @@
   min-height: var(--nav-height);
   width: 100%;
   background-color: var(--color-primary);
-  z-index: 2;
+  z-index: 3;
   color: white;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .navList.active {
-  height: calc(var(--nav-height) * 5);
+  height: calc(var(--nav-height) * 6);
 }
 
 .navItem {

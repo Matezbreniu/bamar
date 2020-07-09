@@ -1,7 +1,19 @@
 .header {
   height: 100vh;
-  background-color: #181518;
+  background-image: url('../images/headerImage.jpg');
+  background-size: cover;
+  background-position: center top;
 }
+.header::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .headerContainer {
   position: absolute;
   width: 100%;
@@ -10,6 +22,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  z-index: 2;
 }
 
 .headerTitle {

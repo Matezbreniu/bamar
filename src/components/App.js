@@ -33,6 +33,7 @@ class App extends Component {
     this.setActiveSection('aboutUs');
     this.setActiveSection('services');
     this.setActiveSection('gallery');
+    this.setActiveSection('references');
     this.setActiveSection('contact');
   }
   render() {

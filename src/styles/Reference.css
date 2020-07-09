@@ -1,0 +1,13 @@
+.reference {
+  margin: 0 20px;
+  position: relative;
+  width: 100%;
+}
+.referenceName {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.referenceDescription {
+  font-size: 0.9rem;
+  text-align: justify;
+}
