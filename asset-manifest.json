@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bamar/static/css/main.913d76b2.chunk.css",
-    "main.js": "/bamar/static/js/main.06422635.chunk.js",
-    "main.js.map": "/bamar/static/js/main.06422635.chunk.js.map",
+    "main.css": "/bamar/static/css/main.dfa5845e.chunk.css",
+    "main.js": "/bamar/static/js/main.8a444fcb.chunk.js",
+    "main.js.map": "/bamar/static/js/main.8a444fcb.chunk.js.map",
     "runtime-main.js": "/bamar/static/js/runtime-main.88fe4ae5.js",
     "runtime-main.js.map": "/bamar/static/js/runtime-main.88fe4ae5.js.map",
     "static/js/2.331e37c0.chunk.js": "/bamar/static/js/2.331e37c0.chunk.js",
     "static/js/2.331e37c0.chunk.js.map": "/bamar/static/js/2.331e37c0.chunk.js.map",
     "index.html": "/bamar/index.html",
-    "precache-manifest.6b08e1ccad6c9cc00a04c179f83b8ad1.js": "/bamar/precache-manifest.6b08e1ccad6c9cc00a04c179f83b8ad1.js",
+    "precache-manifest.b9d1c10c666ab87daa86e7a29f39509d.js": "/bamar/precache-manifest.b9d1c10c666ab87daa86e7a29f39509d.js",
     "service-worker.js": "/bamar/service-worker.js",
-    "static/css/main.913d76b2.chunk.css.map": "/bamar/static/css/main.913d76b2.chunk.css.map",
+    "static/css/main.dfa5845e.chunk.css.map": "/bamar/static/css/main.dfa5845e.chunk.css.map",
     "static/js/2.331e37c0.chunk.js.LICENSE.txt": "/bamar/static/js/2.331e37c0.chunk.js.LICENSE.txt",
     "static/media/ballet.47dadb82.svg": "/bamar/static/media/ballet.47dadb82.svg",
     "static/media/basketball.c8e3632c.svg": "/bamar/static/media/basketball.c8e3632c.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.88fe4ae5.js",
     "static/js/2.331e37c0.chunk.js",
-    "static/css/main.913d76b2.chunk.css",
-    "static/js/main.06422635.chunk.js"
+    "static/css/main.dfa5845e.chunk.css",
+    "static/js/main.8a444fcb.chunk.js"
   ]
 }
