@@ -37,10 +37,9 @@ class References extends Component {
   touchMoveX = 0;
 
   checkSwipeDirection = () => {
-    const touchLength = this.touchMoveX;
-    if (touchLength > 50) {
+    if (this.touchMoveX > 50) {
       return 1;
-    } else if (touchLength < -50) {
+    } else if (this.touchMoveX < -50) {
       return -1;
     } else {
       return 0;
@@ -48,19 +47,15 @@ class References extends Component {
   };
 
   handleTouchStart = (e) => {
+    this.setVariables();
     this.touchStartX = e.touches[0].clientX;
   };
   handleTouchMove = (e) => {
-    const touchStart = this.touchStartX;
-    const touchClientX = e.touches[0].clientX;
-    const touchMoveX = touchStart - touchClientX;
-    let positionFromLeft = this.positionFromLeft;
-    if (touchMoveX % 10 === 0) {
-      positionFromLeft =
-        -this.state.actualReference * this.referenceWidth - touchMoveX;
+    this.touchMoveX = this.touchStartX - e.touches[0].clientX;
+    if (this.touchMoveX % 15 === 0) {
+      this.positionFromLeft =
+        -this.state.actualReference * this.referenceWidth - this.touchMoveX;
     }
-    this.touchMoveX = touchMoveX;
-    this.positionFromLeft = positionFromLeft;
     this.referencesContainer.style.transform = `translateX(${this.positionFromLeft}px)`;
   };
   handleTouchEnd = () => {
@@ -72,39 +67,48 @@ class References extends Component {
     ) {
       actualReference = this.state.actualReference;
     }
-    const positionFromLeft = -actualReference * this.referenceWidth;
-    this.positionFromLeft = positionFromLeft;
+    this.positionFromLeft = -actualReference * this.referenceWidth;
     this.referencesContainer.style.transform = `translateX(${this.positionFromLeft}px)`;
     this.setState({
       actualReference,
     });
   };
+
   handleClick = (e) => {
-    const actualReference = parseInt(e.target.getAttribute('index'));
-    const positionFromLeft = actualReference * this.referenceWidth * -1;
-    this.positionFromLeft = positionFromLeft;
+    this.setVariables();
+    const className = e.target.className;
+    const index = parseInt(e.target.getAttribute('index'));
+    let actualReference;
+    if (className === 'referencesSwiperCircle') {
+      actualReference = index;
+    } else {
+      actualReference = this.state.actualReference + index;
+      if (
+        actualReference < 0 ||
+        actualReference > this.referencesList.length - 1
+      ) {
+        actualReference = this.state.actualReference;
+      }
+    }
+
     this.setState({
       actualReference,
     });
   };
 
-  componentDidMount() {
+  setVariables = () => {
     const referencesContainer = document.querySelector('.referencesContainer');
-
     const containerWidth = parseFloat(
       window.getComputedStyle(referencesContainer).width
     );
-    const containerHeight = parseFloat(
-      window.getComputedStyle(referencesContainer).height
-    );
-    const arrows = document.querySelectorAll('.referencesArrow');
-    arrows.forEach((arrow) => {
-      arrow.style.height = containerHeight;
-    });
     const width = containerWidth / this.referencesList.length;
     this.referencesContainer = referencesContainer;
     this.referencesContainerWidth = containerWidth;
     this.referenceWidth = width;
+  };
+
+  componentDidMount() {
+    this.setVariables();
   }
 
   render() {
@@ -123,21 +127,16 @@ class References extends Component {
             onTouchMove={this.handleTouchMove}
             onTouchEnd={this.handleTouchEnd}
           >
-            {/* <Left
-              className='referencesArrow'
-              id='arrowLeft'
-              style={{height: this.referencesContainerHeight}}
-            /> */}
             {this.referencesList.map((referenceItem, index) => (
               <Reference key={index} reference={referenceItem} />
             ))}
-            {/* <Right
-              className='referencesArrow'
-              id='arrowRight'
-              style={{height: this.referencesContainerHeight}}
-            /> */}
           </div>
           <div className='referencesSwiper'>
+            <Left
+              onClick={this.handleClick}
+              className='referencesArrow'
+              index={-1}
+            />
             {this.referencesList.map((item, index) => (
               <div
                 onClick={this.handleClick}
@@ -150,6 +149,11 @@ class References extends Component {
                 )}
               </div>
             ))}
+            <Right
+              onClick={this.handleClick}
+              className='referencesArrow'
+              index={1}
+            />
           </div>
         </div>
       </section>
