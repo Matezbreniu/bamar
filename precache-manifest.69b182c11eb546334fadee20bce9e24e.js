@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20b9d6b958354cba60dfcb4a886314fb",
+    "revision": "7f85a4a4aa237ab72d7c9277252e0ed8",
     "url": "/bamar/index.html"
   },
   {
-    "revision": "509badd48f8beb42b131",
-    "url": "/bamar/static/css/main.dfa5845e.chunk.css"
+    "revision": "badc60dfa32e7faad57d",
+    "url": "/bamar/static/css/main.ba5fb3e5.chunk.css"
   },
   {
-    "revision": "0f2a9f9f08fc11b7eaf2",
-    "url": "/bamar/static/js/2.331e37c0.chunk.js"
+    "revision": "8a572ecff9ca90ec3512",
+    "url": "/bamar/static/js/2.3678d11d.chunk.js"
   },
   {
     "revision": "f731224685885338d153242cbfb8e85f",
-    "url": "/bamar/static/js/2.331e37c0.chunk.js.LICENSE.txt"
+    "url": "/bamar/static/js/2.3678d11d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "509badd48f8beb42b131",
-    "url": "/bamar/static/js/main.8a444fcb.chunk.js"
+    "revision": "badc60dfa32e7faad57d",
+    "url": "/bamar/static/js/main.1271643b.chunk.js"
   },
   {
     "revision": "aa71630c1cf675a9d486",
@@ -48,8 +48,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bamar/static/media/football.b8e6f5eb.svg"
   },
   {
-    "revision": "5a6e3fa65eef829184b7431db38cd23d",
-    "url": "/bamar/static/media/headerImage.5a6e3fa6.jpg"
+    "revision": "b2075f9a94a1c16fc581d2d59589e55c",
+    "url": "/bamar/static/media/gallery1.b2075f9a.jpg"
+  },
+  {
+    "revision": "309a9161b27dbaadd0df743db04c2a04",
+    "url": "/bamar/static/media/gallery2.309a9161.jpg"
+  },
+  {
+    "revision": "a2c94088ce15f105a6a6199d4c606f59",
+    "url": "/bamar/static/media/gallery3.a2c94088.jpg"
+  },
+  {
+    "revision": "29be259928d15385512060525d6fcfb4",
+    "url": "/bamar/static/media/gallery4.29be2599.jpg"
+  },
+  {
+    "revision": "b0ecb128ef9f96c25157e578e3b6485b",
+    "url": "/bamar/static/media/headerImage.b0ecb128.jpg"
   },
   {
     "revision": "671d2ae75bdfd6d7d6d3c2e0084da841",
