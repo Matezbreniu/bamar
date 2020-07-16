@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   min-height: var(--nav-height);
   width: 100%;
@@ -11,6 +12,7 @@
 }
 
 .navLogo {
+  margin-left: 10px;
   height: var(--nav-height);
 }
 
@@ -98,21 +100,18 @@
 }
 
 @media (min-width: 1023px) {
-  .navContainer {
-    justify-content: center;
-  }
-  .navLogo {
-    position: absolute;
-    left: 20px;
-    /* height: calc(1.5 * var(--nav-height)); */
-  }
-
   .navBurger {
     display: none;
+  }
+
+  .navLogo {
+    margin-left: 50px;
   }
   .navList {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-grow: 1;
     width: auto;
     height: calc(1.2 * var(--nav-height));
   }

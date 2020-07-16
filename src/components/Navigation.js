@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollToElement from './ScrollToElement';
 import '../styles/Navigation.css';
+import logoBamar from '../images/logoBamar.png';
 
 const navList = [
   {name: 'Home', id: 'header'},
@@ -19,7 +20,7 @@ const handleClick = (e) => {
 function Navigation() {
   return (
     <nav className='navContainer'>
-      <img className='navLogo' src='' alt='logo' />
+      <img className='navLogo' src={logoBamar} alt='logoBamar' />
       <div className='navBurger' onClick={handleClick}>
         <div className='navBurgerLine'></div>
       </div>
