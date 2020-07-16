@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 class App extends Component {
   state = {};
 
-  setActiveSection = (trigger) => {
+  setHandlerForActiveSection = (trigger) => {
     const navHeight = document.querySelector('.navLogo').offsetHeight;
     ScrollTrigger.create({
       trigger: `.${trigger}`,
@@ -28,13 +28,18 @@ class App extends Component {
     });
   };
 
+  setHandlersForAllSections = () => {
+    this.setHandlerForActiveSection('header');
+    this.setHandlerForActiveSection('aboutUs');
+    this.setHandlerForActiveSection('services');
+    this.setHandlerForActiveSection('gallery');
+    this.setHandlerForActiveSection('references');
+    this.setHandlerForActiveSection('contact');
+  };
+
   componentDidMount() {
-    this.setActiveSection('header');
-    this.setActiveSection('aboutUs');
-    this.setActiveSection('services');
-    this.setActiveSection('gallery');
-    this.setActiveSection('references');
-    this.setActiveSection('contact');
+    this.setHandlersForAllSections();
+    window.addEventListener('resize', this.setHandlersForAllSections);
   }
   render() {
     return (
