@@ -13,6 +13,7 @@
 
 .navLogo {
   margin-left: 10px;
+  padding: 2px 0;
   height: var(--nav-height);
 }
 
@@ -106,6 +107,7 @@
 
   .navLogo {
     margin-left: 50px;
+    padding: 0;
   }
   .navList {
     display: flex;
