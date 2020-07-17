@@ -1,5 +1,8 @@
 .contactItem {
   margin: 20px 0;
+  overflow: hidden;
+}
+.contactSpan {
   display: flex;
   align-items: center;
 }

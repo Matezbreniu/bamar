@@ -115,7 +115,7 @@ class References extends Component {
     return (
       <section className='references'>
         <div className='wrapper'>
-          <div className='title'>Referencje</div>
+          <h2 className='referencesTitle title'>Referencje</h2>
           <div
             className='referencesContainer'
             style={{

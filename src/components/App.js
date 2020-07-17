@@ -12,6 +12,53 @@ gsap.registerPlugin(ScrollTrigger);
 class App extends Component {
   state = {};
 
+  setAnimationForTitles = () => {
+    const titles = document.querySelectorAll('.title');
+    gsap.set(titles, {x: 300, opacity: 0});
+    titles.forEach((title) => {
+      gsap.to(title, {
+        scrollTrigger: {
+          trigger: title,
+          start: 'top 70%',
+          end: '+=100px',
+        },
+        x: 0,
+        opacity: 1,
+      });
+    });
+  };
+
+  setAnimationForServices = () => {
+    const serviceContainers = document.querySelectorAll('.serviceContainer');
+    gsap.set(serviceContainers, {opacity: 0, scale: 0});
+    serviceContainers.forEach((serviceContainer, index) => {
+      const timeDelay = index * 0.3;
+      gsap.to(serviceContainer, {
+        scrollTrigger: {
+          trigger: serviceContainer,
+          start: 'bottom 70%',
+          end: '+=100',
+        },
+        opacity: 1,
+        scale: 1,
+        delay: timeDelay,
+      });
+    });
+  };
+
+  setAnimationForContact = () => {
+    const contactSpan = document.querySelectorAll('.contactSpan');
+    gsap.set(contactSpan, {y: 100});
+    gsap.to(contactSpan, {
+      scrollTrigger: {
+        trigger: contactSpan,
+        start: 'bottom 70%',
+        end: '+=100',
+      },
+      y: 0,
+    });
+  };
+
   setHandlerForActiveSection = (trigger) => {
     const navHeight = document.querySelector('.navLogo').offsetHeight;
     ScrollTrigger.create({
@@ -38,6 +85,9 @@ class App extends Component {
   };
 
   componentDidMount() {
+    this.setAnimationForTitles();
+    this.setAnimationForServices();
+    this.setAnimationForContact();
     this.setHandlersForAllSections();
     window.addEventListener('resize', this.setHandlersForAllSections);
   }
