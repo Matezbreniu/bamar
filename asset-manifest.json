@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bamar/static/css/main.3a25def3.chunk.css",
-    "main.js": "/bamar/static/js/main.030e6d5e.chunk.js",
-    "main.js.map": "/bamar/static/js/main.030e6d5e.chunk.js.map",
+    "main.js": "/bamar/static/js/main.6153970d.chunk.js",
+    "main.js.map": "/bamar/static/js/main.6153970d.chunk.js.map",
     "runtime-main.js": "/bamar/static/js/runtime-main.88fe4ae5.js",
     "runtime-main.js.map": "/bamar/static/js/runtime-main.88fe4ae5.js.map",
     "static/js/2.14cbc237.chunk.js": "/bamar/static/js/2.14cbc237.chunk.js",
     "static/js/2.14cbc237.chunk.js.map": "/bamar/static/js/2.14cbc237.chunk.js.map",
     "index.html": "/bamar/index.html",
-    "precache-manifest.a96272992b8452b5b89e3429c785840a.js": "/bamar/precache-manifest.a96272992b8452b5b89e3429c785840a.js",
+    "precache-manifest.780f55a07a206eb8d7eca702262c5a93.js": "/bamar/precache-manifest.780f55a07a206eb8d7eca702262c5a93.js",
     "service-worker.js": "/bamar/service-worker.js",
     "static/css/main.3a25def3.chunk.css.map": "/bamar/static/css/main.3a25def3.chunk.css.map",
     "static/js/2.14cbc237.chunk.js.LICENSE.txt": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.88fe4ae5.js",
     "static/js/2.14cbc237.chunk.js",
     "static/css/main.3a25def3.chunk.css",
-    "static/js/main.030e6d5e.chunk.js"
+    "static/js/main.6153970d.chunk.js"
   ]
 }
