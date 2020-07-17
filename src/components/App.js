@@ -19,7 +19,7 @@ class App extends Component {
       gsap.to(title, {
         scrollTrigger: {
           trigger: title,
-          start: 'top 70%',
+          start: 'top 80%',
           end: '+=100px',
         },
         x: 0,
@@ -32,16 +32,14 @@ class App extends Component {
     const serviceContainers = document.querySelectorAll('.serviceContainer');
     gsap.set(serviceContainers, {opacity: 0, scale: 0});
     serviceContainers.forEach((serviceContainer, index) => {
-      const timeDelay = index * 0.3;
       gsap.to(serviceContainer, {
         scrollTrigger: {
           trigger: serviceContainer,
-          start: 'bottom 70%',
+          start: 'bottom 80%',
           end: '+=100',
         },
         opacity: 1,
         scale: 1,
-        delay: timeDelay,
       });
     });
   };
@@ -52,7 +50,7 @@ class App extends Component {
     gsap.to(contactSpan, {
       scrollTrigger: {
         trigger: contactSpan,
-        start: 'bottom 70%',
+        start: 'bottom 80%',
         end: '+=100',
       },
       y: 0,

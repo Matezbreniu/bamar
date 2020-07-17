@@ -11,22 +11,22 @@ class References extends Component {
 
   referencesList = [
     {
-      name: 'Przedszkole nr 77 Poznań - Koraliki',
+      name: 'Wrocławski Klub Koszykówki',
       img: '',
       description:
-        'Z Panem Bartoszem Sikorskim - założycielem Firmy BAMAR nasze Przedszkole współpracuje już od trzech lat i na pewno będziemy kontynuowali naszą współpracę w kolejnych latach. Wszystkie zajęcia prowadzone na trenie naszej placówki cieszą się ogromnym powodzeniem wśród dzieci i rodziców. ',
+        'Podczas wykonywania swoich obowiązków pan Bartosz wykazywał się profesjonalizmem, cierpliwością, otwartością oraz wyrozumiałością. Starannie tłumaczył każde ćwiczenie, dopasowując do poziomu sportowego każdego z uczestników. Był także dla nich wsparciem poza boiskiem, udzielając porad koszykarskich do dalszego rozwoju. Poprzez swoje zaangażowanie i doświadczenie był dużym wsparciem w kwestiach organizacyjnych, mimo że nie były one objęte umową. Z przyjemnością stwierdzam, że jest osobą godną polecenia.',
     },
     {
       name: 'Przedszkole nr 77 Poznań - Koraliki',
       img: '',
       description:
-        'Z Panem Bartoszem Sikorskim - założycielem Firmy BAMAR nasze Przedszkole współpracuje już od trzech lat i na pewno będziemy kontynuowali naszą współpracę w kolejnych latach. Wszystkie zajęcia prowadzone na trenie naszej placówki cieszą się ogromnym powodzeniem wśród dzieci i rodziców. ',
+        'Z Panem Bartoszem Sikorskim - założycielem Firmy BAMAR nasze Przedszkole współpracuje już od trzech lat i na pewno będziemy kontynuowali naszą współpracę w kolejnych latach. Wszystkie zajęcia prowadzone na trenie naszej placówki cieszą się ogromnym powodzeniem wśród dzieci i rodziców. Wysoko oceniają je również moi nauczyciele, którzy uczestniczą w zajęciach wraz z dziećmi. Z całą odpowiedzialnością polecam zajęcia prowadzone przez Pana Bartosza Sikorskiego oraz jego instruktorów.',
     },
     {
-      name: 'Przedszkole nr 77 Poznań - Koraliki',
+      name: 'Przedszkole publiczne "Naszych Dzieci"',
       img: '',
       description:
-        'Z Panem Bartoszem Sikorskim - założycielem Firmy BAMAR nasze Przedszkole współpracuje już od trzech lat i na pewno będziemy kontynuowali naszą współpracę w kolejnych latach. Wszystkie zajęcia prowadzone na trenie naszej placówki cieszą się ogromnym powodzeniem wśród dzieci i rodziców. ',
+        'Firma "Bamar" sumiennie i terminowo wywiązuje się z obowiązków jej działania charakteryzują się elastycznością i profesjonalizmem powierzonych zadań. Duże doświadczenie i wysokie kwalifikacje pracowników przełożyły się ma efekty, które całkowicie spełniły nasze oczekiwania jako placówki jak i rodziców powierzających nam swoje dzieci. Nasza współpraca przebiega sprawnie i na wysokim poziomie świadczonych usług. Dlatego z całym przekonaniem rekomendujemy firmę "Bamar" jako specjalistę w swojej branży oraz rzetelnego i godnego partnera biznesowego.',
     },
   ];
   referencesContainer;

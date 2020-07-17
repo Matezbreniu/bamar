@@ -18,6 +18,10 @@ const servicesListForKinderGarten = [
   {name: 'Szachy', icon: Chess},
   {name: 'Taniec nowoczesny', icon: Dance},
   {name: 'Balet', icon: Ballet},
+  {
+    name:
+      'Jesteśmy w stanie zorganizować praktycznie każde zajęcia według Waszych potrzeb!',
+  },
 ];
 const servicesListForOthers = [
   {name: 'Nauka tańca weselnego', icon: Hippies},
