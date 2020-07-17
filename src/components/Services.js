@@ -20,7 +20,7 @@ const servicesListForKinderGarten = [
   {name: 'Balet', icon: Ballet},
   {
     name:
-      'Jesteśmy w stanie zorganizować praktycznie każde zajęcia według Waszych potrzeb!',
+      'Wychodząć na przeciw Waszym potrzebom mamy możliwość zorganizowania zajęć o każdej tematyce!',
   },
 ];
 const servicesListForOthers = [
