@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2257b6135d29863d7f53cfba1fbb2957",
+    "revision": "856e79e4b6d6a57d125c01367640634c",
     "url": "/bamar/index.html"
   },
   {
-    "revision": "89b1a3c262ad0958a902",
+    "revision": "c0f8436d6301fd6c316b",
     "url": "/bamar/static/css/main.3a25def3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89b1a3c262ad0958a902",
-    "url": "/bamar/static/js/main.6153970d.chunk.js"
+    "revision": "c0f8436d6301fd6c316b",
+    "url": "/bamar/static/js/main.4595e31c.chunk.js"
   },
   {
     "revision": "aa71630c1cf675a9d486",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3eaaa6e5625f3e000b2cab2c23cf6684",
     "url": "/bamar/static/media/left.3eaaa6e5.svg"
+  },
+  {
+    "revision": "fa949b0633ab4f3889a9da81206b78ea",
+    "url": "/bamar/static/media/more.fa949b06.svg"
   },
   {
     "revision": "c9df718ccdd07fbf8435f769a22627ed",
