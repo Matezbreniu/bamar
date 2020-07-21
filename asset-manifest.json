@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bamar/static/css/main.3a25def3.chunk.css",
+    "main.css": "/bamar/static/css/main.6e3cd58c.chunk.css",
     "main.js": "/bamar/static/js/main.4595e31c.chunk.js",
     "main.js.map": "/bamar/static/js/main.4595e31c.chunk.js.map",
     "runtime-main.js": "/bamar/static/js/runtime-main.88fe4ae5.js",
@@ -8,9 +8,9 @@
     "static/js/2.14cbc237.chunk.js": "/bamar/static/js/2.14cbc237.chunk.js",
     "static/js/2.14cbc237.chunk.js.map": "/bamar/static/js/2.14cbc237.chunk.js.map",
     "index.html": "/bamar/index.html",
-    "precache-manifest.388feca4f29a894f52b4fe53bf0d775b.js": "/bamar/precache-manifest.388feca4f29a894f52b4fe53bf0d775b.js",
+    "precache-manifest.8ad21d116afde3d48b3c017d88dade8e.js": "/bamar/precache-manifest.8ad21d116afde3d48b3c017d88dade8e.js",
     "service-worker.js": "/bamar/service-worker.js",
-    "static/css/main.3a25def3.chunk.css.map": "/bamar/static/css/main.3a25def3.chunk.css.map",
+    "static/css/main.6e3cd58c.chunk.css.map": "/bamar/static/css/main.6e3cd58c.chunk.css.map",
     "static/js/2.14cbc237.chunk.js.LICENSE.txt": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt",
     "static/media/ballet.47dadb82.svg": "/bamar/static/media/ballet.47dadb82.svg",
     "static/media/basketball.c8e3632c.svg": "/bamar/static/media/basketball.c8e3632c.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.88fe4ae5.js",
     "static/js/2.14cbc237.chunk.js",
-    "static/css/main.3a25def3.chunk.css",
+    "static/css/main.6e3cd58c.chunk.css",
     "static/js/main.4595e31c.chunk.js"
   ]
 }
