@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f589712b46ff257ad88de1b905df50bf",
+    "revision": "58232c24414a845652f43a48a346f97a",
     "url": "/bamar/index.html"
   },
   {
-    "revision": "9afcd5bf2db6f35e637c",
+    "revision": "4b7cfec593d60834ba2b",
     "url": "/bamar/static/css/main.6e3cd58c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9afcd5bf2db6f35e637c",
-    "url": "/bamar/static/js/main.4595e31c.chunk.js"
+    "revision": "4b7cfec593d60834ba2b",
+    "url": "/bamar/static/js/main.2c8a2ca8.chunk.js"
   },
   {
     "revision": "aa71630c1cf675a9d486",
