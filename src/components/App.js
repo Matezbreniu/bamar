@@ -16,7 +16,7 @@ class App extends Component {
     const headerItems = document.querySelectorAll('.headerContainer *');
     gsap.set(headerItems, {y: 300, opacity: 0});
     headerItems.forEach((item, index) => {
-      const delay = 0.3 * index;
+      const delay = 1 + 0.3 * index;
       gsap.to(item, {y: 0, opacity: 1, duration: 0.5, delay: delay});
     });
   };
