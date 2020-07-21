@@ -10,6 +10,7 @@ import {ReactComponent as Dance} from '../icons/dance.svg';
 import {ReactComponent as Ballet} from '../icons/ballet.svg';
 import {ReactComponent as Hippies} from '../icons/hippies.svg';
 import {ReactComponent as BasketballPlayer} from '../icons/basketballPlayer.svg';
+import {ReactComponent as More} from '../icons/more.svg';
 
 const servicesListForKinderGarten = [
   {name: 'Koszykówka', icon: Basketball},
@@ -18,10 +19,7 @@ const servicesListForKinderGarten = [
   {name: 'Szachy', icon: Chess},
   {name: 'Taniec nowoczesny', icon: Dance},
   {name: 'Balet', icon: Ballet},
-  {
-    name:
-      'Wychodząć na przeciw Waszym potrzebom mamy możliwość zorganizowania zajęć o każdej tematyce!',
-  },
+  {name: 'I wiele więcej', icon: More},
 ];
 const servicesListForOthers = [
   {name: 'Nauka tańca weselnego', icon: Hippies},
