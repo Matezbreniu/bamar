@@ -30,9 +30,11 @@
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
   fill: var(--color-tertiary);
+  transition: 0.5s;
 }
 .serviceIconContainer:hover .serviceIcon {
   fill: white;
+  transform: translate(-50%, -50%) rotate(-45deg) rotateY(360deg);
 }
 
 .serviceTitle {
