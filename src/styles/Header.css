@@ -44,12 +44,12 @@
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-  transition: 0.2s;
+  transition: border-color 0.2s, background-color 0.2s, border-radius 0.2s;
+  cursor: pointer;
 }
 
 .headerBtn:hover {
   border-color: var(--color-tertiary);
   background-color: var(--color-tertiary);
   border-radius: 15px;
-  cursor: pointer;
 }

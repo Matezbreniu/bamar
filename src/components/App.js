@@ -17,7 +17,7 @@ class App extends Component {
     gsap.set(headerItems, {y: 300, opacity: 0});
     headerItems.forEach((item, index) => {
       const delay = 1 + 0.3 * index;
-      gsap.to(item, {y: 0, opacity: 1, duration: 0.5, delay: delay});
+      gsap.to(item, {y: 0, opacity: 1, delay: delay});
     });
   };
 
@@ -36,6 +36,22 @@ class App extends Component {
         opacity: 1,
         duration: 1,
       });
+    });
+  };
+
+  setAnimationForBenefitsList = () => {
+    gsap.set('.aboutUsBenefit', {
+      x: -200,
+      opacity: 0,
+    });
+    gsap.to('.aboutUsBenefit', {
+      scrollTrigger: {
+        trigger: '.aboutUsBenefit',
+        start: 'bottom 80%',
+      },
+      opacity: 1,
+      x: 0,
+      stagger: 0.3,
     });
   };
 
@@ -58,11 +74,10 @@ class App extends Component {
   };
 
   setAnimationForContact = () => {
-    const contactSpan = document.querySelectorAll('.contactSpan');
-    gsap.set(contactSpan, {y: 100});
-    gsap.to(contactSpan, {
+    gsap.set('.contactSpan', {y: 100});
+    gsap.to('.contactSpan', {
       scrollTrigger: {
-        trigger: contactSpan,
+        trigger: '.contactSpan',
         start: 'bottom 80%',
         end: '+=100',
       },
@@ -101,6 +116,7 @@ class App extends Component {
     this.setAnimationForServices();
     this.setAnimationForContact();
     this.setHandlersForAllSections();
+    this.setAnimationForBenefitsList();
     window.addEventListener('resize', this.setHandlersForAllSections);
   }
   render() {
