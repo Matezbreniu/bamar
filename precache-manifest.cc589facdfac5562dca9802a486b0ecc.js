@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a63b76269131b2149712624f1dca3966",
+    "revision": "c99cad34d096e356d6d58f39f5ded000",
     "url": "/bamar/index.html"
   },
   {
-    "revision": "9206f0d541fc5b2d2d00",
-    "url": "/bamar/static/css/main.b4fc97cb.chunk.css"
+    "revision": "2192da8052745c5fcf16",
+    "url": "/bamar/static/css/main.49f5bcb3.chunk.css"
   },
   {
     "revision": "24c71d78fcec0d0a210a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9206f0d541fc5b2d2d00",
-    "url": "/bamar/static/js/main.128e596e.chunk.js"
+    "revision": "2192da8052745c5fcf16",
+    "url": "/bamar/static/js/main.bfc8b36f.chunk.js"
   },
   {
     "revision": "aa71630c1cf675a9d486",
@@ -52,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bamar/static/media/gallery1.b2075f9a.jpg"
   },
   {
-    "revision": "309a9161b27dbaadd0df743db04c2a04",
-    "url": "/bamar/static/media/gallery2.309a9161.jpg"
+    "revision": "5643079ba72507fe3b82567bfaf84bd6",
+    "url": "/bamar/static/media/gallery2.5643079b.jpg"
   },
   {
-    "revision": "a2c94088ce15f105a6a6199d4c606f59",
-    "url": "/bamar/static/media/gallery3.a2c94088.jpg"
+    "revision": "b1c4c26b8ce060aa527d71538d333e10",
+    "url": "/bamar/static/media/gallery3.b1c4c26b.jpg"
   },
   {
-    "revision": "29be259928d15385512060525d6fcfb4",
-    "url": "/bamar/static/media/gallery4.29be2599.jpg"
+    "revision": "ab311ff67851aef970220a8f6e951902",
+    "url": "/bamar/static/media/gallery4.ab311ff6.jpg"
   },
   {
     "revision": "b0ecb128ef9f96c25157e578e3b6485b",

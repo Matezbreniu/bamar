@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bamar/static/css/main.b4fc97cb.chunk.css",
-    "main.js": "/bamar/static/js/main.128e596e.chunk.js",
-    "main.js.map": "/bamar/static/js/main.128e596e.chunk.js.map",
+    "main.css": "/bamar/static/css/main.49f5bcb3.chunk.css",
+    "main.js": "/bamar/static/js/main.bfc8b36f.chunk.js",
+    "main.js.map": "/bamar/static/js/main.bfc8b36f.chunk.js.map",
     "runtime-main.js": "/bamar/static/js/runtime-main.88fe4ae5.js",
     "runtime-main.js.map": "/bamar/static/js/runtime-main.88fe4ae5.js.map",
     "static/js/2.14cbc237.chunk.js": "/bamar/static/js/2.14cbc237.chunk.js",
     "static/js/2.14cbc237.chunk.js.map": "/bamar/static/js/2.14cbc237.chunk.js.map",
     "index.html": "/bamar/index.html",
-    "precache-manifest.b53512b4d250597e0ad30e6a0cf65f3c.js": "/bamar/precache-manifest.b53512b4d250597e0ad30e6a0cf65f3c.js",
+    "precache-manifest.cc589facdfac5562dca9802a486b0ecc.js": "/bamar/precache-manifest.cc589facdfac5562dca9802a486b0ecc.js",
     "service-worker.js": "/bamar/service-worker.js",
-    "static/css/main.b4fc97cb.chunk.css.map": "/bamar/static/css/main.b4fc97cb.chunk.css.map",
+    "static/css/main.49f5bcb3.chunk.css.map": "/bamar/static/css/main.49f5bcb3.chunk.css.map",
     "static/js/2.14cbc237.chunk.js.LICENSE.txt": "/bamar/static/js/2.14cbc237.chunk.js.LICENSE.txt",
     "static/media/ballet.47dadb82.svg": "/bamar/static/media/ballet.47dadb82.svg",
     "static/media/basketball.c8e3632c.svg": "/bamar/static/media/basketball.c8e3632c.svg",
@@ -19,9 +19,9 @@
     "static/media/dance.1ecaf3bb.svg": "/bamar/static/media/dance.1ecaf3bb.svg",
     "static/media/football.b8e6f5eb.svg": "/bamar/static/media/football.b8e6f5eb.svg",
     "static/media/gallery1.jpg": "/bamar/static/media/gallery1.b2075f9a.jpg",
-    "static/media/gallery2.jpg": "/bamar/static/media/gallery2.309a9161.jpg",
-    "static/media/gallery3.jpg": "/bamar/static/media/gallery3.a2c94088.jpg",
-    "static/media/gallery4.jpg": "/bamar/static/media/gallery4.29be2599.jpg",
+    "static/media/gallery2.jpg": "/bamar/static/media/gallery2.5643079b.jpg",
+    "static/media/gallery3.jpg": "/bamar/static/media/gallery3.b1c4c26b.jpg",
+    "static/media/gallery4.jpg": "/bamar/static/media/gallery4.ab311ff6.jpg",
     "static/media/Header.css": "/bamar/static/media/headerImage.b0ecb128.jpg",
     "static/media/hippies.671d2ae7.svg": "/bamar/static/media/hippies.671d2ae7.svg",
     "static/media/karate.7f7a557b.svg": "/bamar/static/media/karate.7f7a557b.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.88fe4ae5.js",
     "static/js/2.14cbc237.chunk.js",
-    "static/css/main.b4fc97cb.chunk.css",
-    "static/js/main.128e596e.chunk.js"
+    "static/css/main.49f5bcb3.chunk.css",
+    "static/js/main.bfc8b36f.chunk.js"
   ]
 }
