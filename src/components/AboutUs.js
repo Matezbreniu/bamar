@@ -30,7 +30,7 @@ const AboutUs = () => {
           sportowe dla dzieci mają na celu szeroko pojęty rozwój fizyczny oraz
           popularyzacje ruchu wśród dzieci i ich rodziców.
         </p>
-        <p className='aboutUsDescription'>
+        <div className='aboutUsDescription'>
           Nasz oferta skierowana jest do przedszkoli na każdym etapie
           kształcenia dziecka,gdzie mogą poznawać sport poprzez zabawę. Poprzez
           uczestnictwo w zajęciach dziecko odnosi wielorakie korzyści:{' '}
@@ -41,7 +41,7 @@ const AboutUs = () => {
               </li>
             ))}
           </ul>
-        </p>
+        </div>
       </div>
     </section>
   );

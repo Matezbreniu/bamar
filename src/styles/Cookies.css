@@ -1,0 +1,36 @@
+.cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 0.7rem;
+  background-color: var(--color-tertiary);
+  text-align: center;
+  transform: translateY(100%);
+  transition: 0.3s;
+}
+
+.cookies.active {
+  transform: translateY(0%);
+}
+
+.cookiesInfo {
+  /* display: block; */
+}
+
+.cookiesBtn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.cookiesBtn:hover {
+  background-color: white;
+  color: var(--color-secondary);
+}

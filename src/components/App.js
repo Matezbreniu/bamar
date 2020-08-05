@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
+
+import {gsap} from 'gsap';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
+
 import Navigation from './Navigation';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import Cookies from './Cookies';
+
 import '../styles/App.css';
 
-import {gsap} from 'gsap';
-import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 class App extends Component {
@@ -109,6 +113,10 @@ class App extends Component {
     this.setHandlerForActiveSection('references');
     this.setHandlerForActiveSection('contact');
   };
+  turnOffMenu = () => {
+    document.querySelector('.navBurger').classList.remove('activeBurger');
+    document.querySelector('.navList').classList.remove('active');
+  };
 
   componentDidMount() {
     this.setAnimationForHeader();
@@ -118,6 +126,7 @@ class App extends Component {
     this.setHandlersForAllSections();
     this.setAnimationForBenefitsList();
     window.addEventListener('resize', this.setHandlersForAllSections);
+    window.addEventListener('resize', this.turnOffMenu);
   }
   render() {
     return (
@@ -126,6 +135,7 @@ class App extends Component {
         <Header />
         <Main />
         <Footer />
+        <Cookies />
       </div>
     );
   }
